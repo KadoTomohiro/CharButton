@@ -1,0 +1,7 @@
+<ul>
+  <li>dec: {{value}}</li>
+  <li>hex: {{hex()}}</li>
+  <li>char: {{char()}}</li>
+</ul>
+
+<app-byte-button [value]="value" (change)="onChange($event)"></app-byte-button>

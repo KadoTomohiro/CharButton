@@ -1,0 +1,12 @@
+button {
+  width: 2em;
+  height: 2em;
+  background-color: #999;
+  border: 1px solid #777;
+  border-radius: 3px;
+}
+
+.on {
+  background-color: #b4ffa7;
+  border-color: #94d289;
+}
